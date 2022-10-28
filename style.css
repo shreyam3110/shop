@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to right, rgb(142, 77, 185), rgb(39, 39, 39));
+    background-repeat: no-repeat;
+    position: relative;
+}
+nav{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 20px;
+}
+.h{
+    margin-top: 5px;
+    margin-left: 10px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.hq{
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    margin-left: 150px;
+    margin-top: 5px;
+    color: white;
+}
+.ico{
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    margin-top: 5px;
+    margin-left: 110px;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: 40%;
+    filter: drop-shadow(20px 20px 20px rgb(68, 65, 65));
+}
+.text{
+    position: relative;
+    text-align: center;
+    color: white;
+    bottom: 500px;
+}
+.text .centered{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    font-size: 90px;
+}
+.left-icon{
+    position: absolute;
+    right: 16px;
+    bottom: 520px;
+    color: white;
+    font-size: 50px;
+}
+.price{
+    position: absolute;
+    left: 21%;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    bottom: 280px;
+}
+.rate{
+    position: absolute;
+    left: 21%;
+    font-size: 20px;
+    bottom: 220px;
+}
+.checked{
+    color: white;
+}
+.info{
+    position: absolute;
+    left: 21%;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    bottom: 180px;
+    color: white;
+}
+.info1{
+    position: absolute;
+    left: 21%;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    bottom: 150px;
+    color: white;
+}
+.buy{
+    position: absolute;
+    left: 89%;
+    font-size: 20px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-weight: lighter;
+    bottom: 180px;
+    color: white;
+    cursor: pointer;
+    text-decoration: underline;
+    margin-bottom: 5px;
+}
+.footer{
+    top: 130px;
+    width: 100%;
+    height: 160px;
+    background-color: black;
+    position: relative;
+}
+.bott{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 10px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    text-decoration: none;
+}
+.bott a{
+    color: white;
+    margin-left: 40px;
+    font-size: 15px;
+}
+.bott1{
+    margin-left: 70px;
+    height: 25px;
+}
+input{
+    height: 25px;
+    border-radius: 5px solid black;
+}
+button{
+    margin-left: 10px;
+    height: 27px;
+    width: 100px;
+    color: white;
+    background-color: gray;
+    margin-top: 3px;
+    cursor: pointer;
+    border-radius: 10px solid black;
+}
+.copy{
+    margin-top: 98px;
+    margin-left: 0px;
+    text-align: center;
+    font-weight: lighter;
+}
+.copy .copy1{
+    color: white;
+}
+@media screen and (max-width: 800px) {
+    .left, .main, .right {
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+}
